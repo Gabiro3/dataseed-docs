@@ -4,26 +4,28 @@
 
 /* Algolia v3 overrides */
 :root {
-  --docsearch-modal-background: #fff;
-  --docsearch-highlight-color: #087ea4;
-  --docsearch-primary-color: #0074a6;
-  --docsearch-container-background: rgba(52, 58, 70, 0.8);
+  --docsearch-modal-background: #f5f8f3;           /* Modal Background: Light Sage */
+  --docsearch-highlight-color: #4a8f45;           /* Highlight Color: Forest Green */
+  --docsearch-primary-color: #5c9c58;             /* Primary Color: Soft Green */
+  --docsearch-container-background: rgba(60, 70, 50, 0.8); /* Container Background: Transparent Olive */
   --docsearch-modal-shadow: none;
-  --docsearch-searchbox-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+  --docsearch-searchbox-shadow: 0 0 0 3px rgba(90, 140, 90, 0.5); /* Searchbox Shadow: Light Green */
   --ifm-z-index-fixed: 1000;
   --docsearch-hit-height: 48px;
   --docsearch-searchbox-height: 72px;
   --docsearch-footer-height: 108px;
   --docsearch-icon-stroke-width: 1.4;
-  --hover-overlay: rgba(0, 0, 0, 0.05);
+  --hover-overlay: rgba(0, 100, 0, 0.05);         /* Hover Overlay: Soft Green */
   --fds-animation-fade-in: cubic-bezier(0, 0, 1, 1);
   --fds-animation-fade-out: cubic-bezier(0, 0, 1, 1);
 }
+
 html.dark {
-  --docsearch-modal-background: #23272f;
-  --docsearch-hit-background: #23272f;
-  --docsearch-highlight-color: #149eca;
+  --docsearch-modal-background: #1e2b1e;           /* Dark Theme Modal Background: Deep Green */
+  --docsearch-hit-background: #2d3a2d;             /* Dark Theme Hit Background: Dark Sage */
+  --docsearch-highlight-color: #6fb96e;            /* Dark Theme Highlight Color: Bright Mint Green */
 }
+
 .DocSearch--active #__next {
   -webkit-filter: blur(0px);
   filter: blur(0px);

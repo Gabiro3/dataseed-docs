@@ -21,7 +21,7 @@ import {IconClose} from 'components/Icon/IconClose';
 import {IconHamburger} from 'components/Icon/IconHamburger';
 import {IconSearch} from 'components/Icon/IconSearch';
 import {Search} from 'components/Search';
-import {Logo} from '../../Logo';
+import Logo from '../../favicon-new.svg';
 import {Feedback} from '../Feedback';
 import {SidebarRouteTree} from '../Sidebar';
 import type {RouteItem} from '../getRouteMeta';
@@ -287,7 +287,7 @@ export default function TopNav({
                           'text-sm me-0 w-10 h-10 text-brand dark:text-brand-dark flex origin-center transition-all ease-in-out'
                         )}
                       />
-                      <span className="sr-only 3xl:not-sr-only">React</span>
+                      <span className="sr-only 3xl:not-sr-only">Dataseed API</span>
                     </NextLink>
                   </div>
                 </div>

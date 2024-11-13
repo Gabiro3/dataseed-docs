@@ -43,12 +43,12 @@ export const Seo = withRouter(
     }`;
     // Allow setting a different title for Google results
     const pageTitle =
-      (titleForTitleTag ?? title) + (isHomePage ? '' : ' – React');
+      (titleForTitleTag ?? title) + (isHomePage ? '' : ' – Dataseed API | Documentation');
     // Twitter's meta parser is not very good.
     const twitterTitle = pageTitle.replace(/[<>]/g, '');
     let description = isHomePage
-      ? 'React is the library for web and native user interfaces. Build user interfaces out of individual pieces called components written in JavaScript. React is designed to let you seamlessly combine components written by independent people, teams, and organizations.'
-      : 'The library for web and native user interfaces';
+      ? 'Dataseed Africa is an agri-data platform that collects and transforms agricultural data into actionable insights. Our platform provides this data to financial institutions, NGOs, and innovators, enabling them to develop data-driven agricultural solutions that drive growth, sustainability, and impact in the agricultural sector.'
+      : 'The largest agriculture data platform in Africa';
     return (
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />

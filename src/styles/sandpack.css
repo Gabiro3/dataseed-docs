@@ -37,45 +37,46 @@
 
 /* Default theme */
 html .sandpack {
-  --sp-colors-accent: #087ea4;
-  --sp-colors-clickable: #959da5;
-  --sp-colors-disabled: #24292e;
-  --sp-colors-error: #811e18;
-  --sp-colors-error-surface: #ffcdca;
-  --sp-colors-surface1: #fff;
-  --sp-colors-surface2: #e4e7eb;
+  --sp-colors-accent: #4B8A39;          /* Accent: Forest Green */
+  --sp-colors-clickable: #738f63;       /* Clickable: Soft Olive */
+  --sp-colors-disabled: #3e4a3d;        /* Disabled: Dark Olive */
+  --sp-colors-error: #8b3b2c;           /* Error: Rusty Brown */
+  --sp-colors-error-surface: #f2d6d0;   /* Error Surface: Soft Peach */
+  --sp-colors-surface1: #f5f8f3;        /* Surface 1: Light Sage */
+  --sp-colors-surface2: #e2e8dc;        /* Surface 2: Sage */
 
-  --sp-syntax-color-plain: #24292e;
-  --sp-syntax-color-comment: #6a737d;
-  --sp-syntax-color-keyword: #d73a49;
-  --sp-syntax-color-tag: #22863a;
-  --sp-syntax-color-punctuation: #24292e;
-  --sp-syntax-color-definition: #6f42c1;
-  --sp-syntax-color-property: #005cc5;
-  --sp-syntax-color-static: #032f62;
-  --sp-syntax-color-string: #032f62;
+  --sp-syntax-color-plain: #2f3e2b;     /* Plain: Deep Green */
+  --sp-syntax-color-comment: #6e7a64;   /* Comment: Muted Green */
+  --sp-syntax-color-keyword: #4d8c57;   /* Keyword: Emerald Green */
+  --sp-syntax-color-tag: #386f4a;       /* Tag: Deep Forest */
+  --sp-syntax-color-punctuation: #2f3e2b; /* Punctuation: Deep Green */
+  --sp-syntax-color-definition: #3d9c6b; /* Definition: Teal Green */
+  --sp-syntax-color-property: #498b72;  /* Property: Cool Mint */
+  --sp-syntax-color-static: #356850;    /* Static: Dark Jade */
+  --sp-syntax-color-string: #356850;    /* String: Dark Jade */
 }
 
 /* Dark theme */
 html.dark .sp-wrapper {
-  --sp-colors-accent: #58c4dc;
-  --sp-colors-clickable: #999;
-  --sp-colors-disabled: #fff;
-  --sp-colors-error: #811e18;
-  --sp-colors-error-surface: #ffcdca;
-  --sp-colors-surface1: #16181d;
-  --sp-colors-surface2: #343a46;
+  --sp-colors-accent: #6dbd6c;          /* Accent: Lighter Mint Green */
+  --sp-colors-clickable: #8aa78e;       /* Clickable: Pale Green */
+  --sp-colors-disabled: #a4b5a2;        /* Disabled: Light Sage */
+  --sp-colors-error: #a6493b;           /* Error: Warm Brick */
+  --sp-colors-error-surface: #ffedec;   /* Error Surface: Light Peach */
+  --sp-colors-surface1: #1e2a1e;        /* Surface 1: Deep Green */
+  --sp-colors-surface2: #3b4c3b;        /* Surface 2: Dark Sage */
 
-  --sp-syntax-color-plain: #ffffff;
-  --sp-syntax-color-comment: #757575;
-  --sp-syntax-color-keyword: #77b7d7;
-  --sp-syntax-color-tag: #dfab5c;
-  --sp-syntax-color-punctuation: #ffffff;
-  --sp-syntax-color-definition: #86d9ca;
-  --sp-syntax-color-property: #77b7d7;
-  --sp-syntax-color-static: #c64640;
-  --sp-syntax-color-string: #977cdc;
+  --sp-syntax-color-plain: #e0e6e0;     /* Plain: Off White */
+  --sp-syntax-color-comment: #8f9f8f;   /* Comment: Muted Sage */
+  --sp-syntax-color-keyword: #98d7a5;   /* Keyword: Bright Mint */
+  --sp-syntax-color-tag: #7caf73;       /* Tag: Leafy Green */
+  --sp-syntax-color-punctuation: #e0e6e0; /* Punctuation: Off White */
+  --sp-syntax-color-definition: #88cba1; /* Definition: Teal Mint */
+  --sp-syntax-color-property: #98d7a5;  /* Property: Bright Mint */
+  --sp-syntax-color-static: #72a173;    /* Static: Jade Green */
+  --sp-syntax-color-string: #88cba1;    /* String: Teal Mint */
 }
+
 
 /**
  * Reset

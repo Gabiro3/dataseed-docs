@@ -1,5 +1,5 @@
 /*
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) Dataseed, Inc. and its affiliates.
  */
 
 import {
@@ -133,10 +133,10 @@ export function HomeContent() {
             )}
           />
           <h1 className="uwu-hidden text-5xl font-display lg:text-6xl self-center flex font-semibold leading-snug text-primary dark:text-primary-dark">
-            React
+            Dataseed Africa API
           </h1>
           <p className="text-4xl font-display max-w-lg md:max-w-full py-1 text-center text-secondary dark:text-primary-dark leading-snug self-center">
-            The library for web and native user interfaces
+            The largest agricultural data platform in Africa.
           </p>
           <div className="mt-5 self-center flex gap-2 w-full sm:w-auto flex-col sm:flex-row">
             <ButtonLink
@@ -145,7 +145,7 @@ export function HomeContent() {
               size="lg"
               className="w-full sm:w-auto justify-center"
               label="Learn React">
-              Learn React
+              API Documentation
             </ButtonLink>
             <ButtonLink
               href={'/reference/react'}

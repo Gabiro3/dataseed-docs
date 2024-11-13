@@ -1,16 +1,16 @@
 /*
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) Dataseed Africa, Inc. and its affiliates.
  */
 
 exports.siteConfig = {
-  version: '18.3.1',
+  version: '1.1.0',
   // --------------------------------------
   // Translations should replace these lines:
   languageCode: 'en',
   hasLegacySite: true,
   isRTL: false,
   // --------------------------------------
-  copyright: `Copyright © ${new Date().getFullYear()} Facebook Inc. All Rights Reserved.`,
+  copyright: `Copyright © ${new Date().getFullYear()} Dataseed Africa. All Rights Reserved.`,
   repoUrl: 'https://github.com/facebook/react',
   twitterUrl: 'https://twitter.com/reactjs',
   algolia: {
